@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Approgram</title>
+  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/index.css">  
+</head>
+
+
+<body>
+    <div class="wrapper">
+
+        <!--HEADER-->
+        <div class="banner-wrapper">
+
+            <!--Logo-->
+            <header>
+                <div class="header-inner">
+                    <a href="index.html" id="logo">
+                        <img src="resources/Disco.gif" alt="Approgram_Logo">
+                    </a>
+
+                    <!--Navegation-->
+                    <nav class=menu>
+                        <ul>
+                            <li>
+                                <a href="index.html" class="active">INICIO</a>
+                            </li>
+                            <li>
+                                <a href="Rock.html">ROCK</a>
+                            </li>
+                            <li>
+                                <a href="Reggaeton.html">REGGAETON</a>
+                            </li>
+                            <li>
+                                <a href="Electronica.html">ELECTRONICA</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+
+            <div id="slide-wrap" class="slide-wrap">
+                <ul class="Presentacion">
+
+                    <li><img src="resources/Presentacion.png" alt=""></li>
+                    <li><img src="resources/Rock.png" alt=""></li>
+                    <li><img src="resources/Reggaeton.png" alt=""></li>
+                    <li><img src="resources/Electronica.png" alt=""></li>
+
+                </ul>
+            </div>
+
+        </div>
+
+        <!--BODY-->
+        <div class="one-third" id="skills">
+
+            <!--Description-->
+
+            <div class="one_third_padding" id="services">
+                <h3>ROCK</h3>
+                <img src="" alt="Adobe_img" class="img1">
+                <p>
+                    El rock es un amplio género de música popular originado como rock and roll
+                    a principios de la década de 1950 en Estados Unidos y que derivaría en un gran
+                    rango de diferentes estilos durante mediados de los años 60 y posteriores,
+                    particularmente en ese país y Reino Unido.
+                </p>
+            </div>
+
+            <div class="one_third_padding" >
+                <h3>REGGAETÓN</h3>
+                <img src="" alt="Office_img" class="img1">
+                <p>
+                    El reguetón​ es un género musical​ que derivó del reggae en español que es a su vez 
+                    un subgénero del dancehall,  así como elementos principalmente del hip hop y la música 
+                    latina. Es un género musical muy popular hasta hoy en día; que ha llegado a alcanzar 
+                    sus apogeos máximos durante las décadas de 2000 y 2010.
+                </p>
+            </div>
+
+            <div class="one_third_padding" >
+                <h3>ELECTRONICA</h3>
+                <img src="" alt="Autodesk_img" class="img1">
+                <p>
+                    La música electrónica es aquel tipo de música que emplea instrumentos musicales electrónicos 
+                    y tecnología musical electrónica para su producción e interpretación.1​ En general, se puede
+                     distinguir entre el sonido producido mediante la utilización de medios electromecánicos
+                </p>
+            </div>
+
+
+
+        </div>
+
+    </div>
+    <footer>
+        <div class="banner_wraper">
+            <p>
+                <a href="#">Jose Santiago Hernandez Rodriguez. 55820001</a>
+            </p>
+
+            
+ 
+            
+
+        </div>
+    </footer>
+<!-- SCRIPTS -->
+<script>
+    $(document).ready(function(){
+      $('.Presentacion').bxSlider({
+        mode: 'fade',
+      });
+      $('.office_2').bxSlider({
+        mode: 'fade',
+      });
+      $('.Adobe_2').bxSlider({
+        mode: 'fade',
+      });
+      $('.Autodesk_2').bxSlider({
+        mode: 'fade',
+      });
+    });
+  </script>
+</body>
+
+</html>
