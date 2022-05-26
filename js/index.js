@@ -1,4 +1,3 @@
-
 $(document).ready(function(){
   $('.Presentacion').bxSlider({
     mode: 'fade',
