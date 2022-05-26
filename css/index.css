@@ -35,11 +35,13 @@ a{
     text-decoration: none ;
     font-weight: bold;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: all 300ms;
 }
 
-a:hover{
+#men:hover{
     color:rgba(220, 220, 220, 0.644);
-    
+    font-size: 115%;
+   
 }
 
 img{
@@ -117,8 +119,16 @@ width: 100%;
 overflow: auto;
 }
 .img1{
-    width: 65%;
+    width: 70%;
+}
+.img2{
+    width: 93%;
+}
+.img3{
+    width: 83%;
 }
 .slide-wrap{
    margin-top: 5%; 
+   
 }
+
